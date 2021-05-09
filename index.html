@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>COVID Chatbot</title>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+    <script src="chatbot.js"></script>
+ 
+ </head>
+ 
+ <body style="background-color:black"> 
+    <center>
+    <div style='border:1px ; width:70%; min-height:540px'  >
+     <div id='botchat' style='width:60%; min-height:540px; background:rgb(240,240,240)'  >
+         <label align="right"> <b>Bot :</b> Hello I'm COVID Bot, I can help you with quries related COVID. </label> <br>
+     </div>
+     </div>
+     <div>
+         <input id="usertext" placeholder="Say Something..!" size=80% style="padding:4px" onkeypress="isEnter(event)" />
+         <button type="button" style='padding:5px' onclick="respond()">send</button>
+     </div>
+    </center>
+ </body>
+</html>
